@@ -90,12 +90,14 @@ void display() {
     }
 
     cout << "\n\nNumber of comparasions : " << cmp_count << endl;
-    cout << "Number of data movements
+    cout << "Number of data movements : " << mov_count << endl;
 }
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    input();
+    q_short(0, n - 1);
+    display();
+    system("pause");
+    return 0;
 }
-
-
